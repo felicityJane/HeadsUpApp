@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Heads Up</string>
+    <string name="com_auth0_client_id">770PSY3NGArovzwGC615luem9Nq9HuSa</string>
+    <string name="com_auth0_domain">feli.eu.auth0.com</string>
+    <string name="logout">Log Out</string>
+</resources>

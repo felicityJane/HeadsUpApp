@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cloud.headsup.controller.MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="START LISTENING SERVICE"
+        android:id="@+id/btn_start"/>
+    <Button
+        android:layout_below="@+id/btn_start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="STOP LISTENING SERVICE"
+        android:id="@+id/btn_stop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_stop"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:id="@+id/btn_plot_layout"
+        >
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="PLOT DATA"
+            android:id="@+id/btn_plot"
+            android:drawableEnd="@drawable/arrow_right"
+            android:drawablePadding="5dp"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_below="@+id/btn_plot_layout"
+        android:layout_marginTop="60dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:text="@string/logout"
+        android:textColor="#171F4B" />
+
+
+
+</RelativeLayout>
